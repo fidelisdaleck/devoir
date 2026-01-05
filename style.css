@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111827;
+    position: fixed;
+}
+.navbar span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .logo{
+    font-weight: bold;
+    font-size: 28px;
+}
+.navbar .nav-links{
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+}
+
+.navbar .nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .nav-links a:hover{
+    color: aqua;
+    border-bottom: 2px solid aqua;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar .nav-btn i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navbar .btn-devis{
+    padding: 10px 20px;
+    background-color: aqua;
+    color: whute;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.banner h1{
+    margin-top: 80px;
+    font-size: 60px;
+    margin-bottom: 18px;
+    text-align: center;
+    color: #3cc6d8cc;
+}
+.banner h2{
+    font-size: 68px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.banner p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+}
+
+.banner .banner-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.banner .banner-btn button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: aqua;
+    color: white;
+    margin: 10px;
+}
+.banner .banner-btn button:hover{
+    background-color: #3cc6d8cc;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+.banner .banner-btn .service{
+    background-color: transparent;
+    border: 2px solid #3cc6d8cc;
+}
